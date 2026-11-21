@@ -1,5 +1,4 @@
 package negocio;
-import modelo.Producto;
 
 public class Inventario {
 

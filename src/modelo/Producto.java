@@ -18,32 +18,39 @@ public class Producto {
         this.precio = precio;
         this.costo = costo;
     }
-
+    //METODOS GET Y SET
     public String getCodigo() {
+
         return codigo;
     }
 
     public String getNombre() {
+
         return nombre;
     }
 
     public String getCategoria() {
+
         return categoria;
     }
 
     public int getCantidad() {
+
         return cantidad;
     }
 
     public double getPrecio() {
+
         return precio;
     }
 
     public double getCosto() {
+
         return costo;
     }
 
     public void setNombre(String nombre) {
+
         this.nombre = nombre;
     }
 
@@ -52,10 +59,12 @@ public class Producto {
     }
 
     public void setPrecio(double precio) {
+
         this.precio = precio;
     }
 
     public void setCosto(double costo) {
+
         this.costo = costo;
     }
 
