@@ -1,6 +1,7 @@
 
 package interfaz;
 
+import modelo.Producto;
 import modelo.ProductoPerecedero;
 import modelo.ProductoNoPerecedero;
 import negocio.Inventario;

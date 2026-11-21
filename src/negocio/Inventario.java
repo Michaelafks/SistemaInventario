@@ -1,5 +1,7 @@
 package negocio;
 
+import modelo.Producto;
+
 public class Inventario {
 
     private Producto[] productos;
