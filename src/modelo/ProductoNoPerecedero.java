@@ -8,7 +8,7 @@ public class ProductoNoPerecedero extends Producto{
         super(codigo, nombre, categoria, cantidad, precio, costo);
     }
 
-    // Mostrar información
+    
     @Override
     public void mostrarInformacion() {
         super.mostrarInformacion();
