@@ -8,16 +8,9 @@ public class Producto {
     private int cantidad;
     private double precio;
     private double costo;
-
-    public Producto(String codigo, String nombre, String categoria, int cantidad, double precio, double costo) {
-
-        this.codigo = codigo;
-        this.nombre = nombre;
-        this.categoria = categoria;
-        this.cantidad = cantidad;
-        this.precio = precio;
-        this.costo = costo;
-    }
+//constructor
+    
+    
     //METODOS GET Y SET
     public String getCodigo() {
 
