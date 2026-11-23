@@ -71,31 +71,3 @@ public class Inventario {
 
         return false;
     }
-
-    public void mostrarProductos() {
-
-        if (cantidadProductos == 0) {
-            System.out.println("No hay productos registrados.");
-            return;
-        }
-
-        for (int i = 0; i < cantidadProductos; i++) {
-
-            System.out.println("\n-------------------------");
-            productos[i].mostrarInformacion();
-            System.out.println("-------------------------");
-        }
-    }
-
-    public double calcularValorInventario() {
-
-        double total = 0;
-
-        for (int i = 0; i < cantidadProductos; i++) {
-
-            total += productos[i].getCosto() * productos[i].getCantidad();
-        }
-
-        return total;
-    }
-}
